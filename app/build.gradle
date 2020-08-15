@@ -55,6 +55,44 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
 
+    // Navigation Dependencies
+    def nav_version = "2.3.0"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    // Testing Navigation
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+    // Paging Dependencies
+    def paging_version = "2.1.2"
+    implementation "androidx.paging:paging-runtime:$paging_version" // For Kotlin use paging-runtime-ktx
+    // alternatively - without Android dependencies for testing
+    testImplementation "androidx.paging:paging-common:$paging_version" // For Kotlin use paging-common-ktx
+    // optional - RxJava support
+    implementation "androidx.paging:paging-rxjava2:$paging_version" // For Kotlin use paging-rxjava2-ktx
+
+
+    // Json Annotations
+    def converter_version ="2.9.0"
+    implementation "com.squareup.retrofit2:converter-jackson:$converter_version"
+    // OK HTTP Dependencies
+    def okhttp_version = "4.7.2"
+    implementation "com.squareup.okhttp3:$okhttp_version"
+    
+    implementation group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '4.7.2'
+    //Retrofit dependencies and GSON Convertor
+    def retrofit_ver = "2.5.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_ver"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_ver"
+
+    // Reactive Java Dependencies - RxJava and RxAndroid (Flowable)
+    def rx_java_ver = "2.1.1"
+    implementation "io.reactivex.rxjava2:rxjava:$rx_java_ver"
+
+    //Rx - Retrofit call Adapter
+    def rx_call_adapter_ver = "2.5.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rx_call_adapter_ver"
+
+
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
