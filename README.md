@@ -5,13 +5,13 @@
 ![color palette Icon](Screenshots/color_pallette.png)
 
 ## App Search Screen
-![App screenShot 1](Screenshots/Screenshot_20200817_002747.png)
-![App screenShot 2](Screenshots/Screenshot_20200817_002750.png)
-![App screenShot 3](Screenshots/Screenshot_20200817_002221.png)
-![App screenShot 4](Screenshots/Screenshot_20200817_001818.png)
+![App screenShot 1] <img src="./Screenshots/Screenshot_20200817_002747.png" width="400px" height="700px"/>
+![App screenShot 2] <img src="./Screenshots/Screenshot_20200817_002750.png" width="400px" height="700px"/>
+![App screenShot 3] <img src="./Screenshots/Screenshot_20200817_002221.png" width="400px" height="700px"/>
+![App screenShot 4] <img src="./Screenshots/Screenshot_20200817_001818.png" width="400px" height="700px"/>
 
 
-## App Detail Screen
+## App Detail Screen - WIP
 ![App screenShot 5](Screenshots/)
 
 
