@@ -16,6 +16,7 @@ data class TitleDetail(
     @JsonProperty("Year") val year: String?,
     @JsonProperty("Rated") val rated: String?,
     @JsonProperty("Released") val released: String?,
+    @JsonProperty("Runtime") val runtime: String?,
     @JsonProperty("Genre") val genre: String?,
     @JsonProperty("Director") val director: String?,
     @JsonProperty("Writer") val writer: String?,

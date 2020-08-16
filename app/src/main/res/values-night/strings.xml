@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plot_long">Carol Danvers becomes one of the universe\'s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</string>
+    <string name="actors_long">Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Jude Law</string>
+    <string name="director_long">Anna Boden, Ryan Fleck</string>
+    <string name="imdb">IMDB</string>
+    <string name="rot">RT</string>
+    <string name="meta">Metacritic</string>
+</resources>

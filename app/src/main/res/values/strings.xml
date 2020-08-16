@@ -6,6 +6,7 @@
     <string name="title">Title</string>
     <string name="year">Year</string>
     <string name="rated">Rated</string>
+    <string name="runtime">Runtime</string>
     <string name="released">Released</string>
     <string name="genre">Genre</string>
     <string name="director">Director</string>
@@ -27,6 +28,19 @@
     <string name="production">Production</string>
     <string name="website">Website</string>
     <string name="response">Response</string>
+    <string name="writer_string_long">Anna Boden (screenplay by), Ryan Fleck (screenplay by), Geneva Robertson-Dworet (screenplay by), Nicole Perlman (story by), Meg LeFauve (story by), Anna Boden (story by), Ryan Fleck (story by), Geneva Robertson-Dworet (story by)</string>
+    <string name="plot_long">Carol Danvers becomes one of the universe\'s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</string>
+    <string name="actors_long">Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Jude Law</string>
+    <string name="director_long">Anna Boden, Ryan Fleck</string>
+    <string name="imdb">IMDB</string>
+    <string name="rot">RT</string>
+    <string name="meta">Metacritic</string>
+
+    <!--states-->
+    <string name="loading">LOADING…</string>
+    <string name="loaded">LOADED…</string>
+    <string name="no_movie_found">No Movie Found.</string>
+    <string name="unknown_error">Something unexpected happened.</string>
 
 
 </resources>

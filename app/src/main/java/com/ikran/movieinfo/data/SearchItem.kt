@@ -36,6 +36,6 @@ data class SearchItem(
 data class SearchResult(
     @JsonProperty("Search") val searchItems : List<SearchItem?>?,
     @JsonProperty("totalResults") val  totalResults:Int?,
-    @JsonProperty("Response") val Response : Boolean,
-    @JsonProperty("Error ") val Error : String?
+    @JsonProperty("Response") val response : Boolean,
+    @JsonProperty("Error ") val error : String?
 )

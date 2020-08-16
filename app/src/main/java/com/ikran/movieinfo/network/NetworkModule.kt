@@ -10,7 +10,6 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.jackson.JacksonConverterFactory
-import retrofit2.create
 import javax.inject.Singleton
 
 @Module
@@ -24,18 +23,24 @@ class NetworkModule {
     @Singleton
     @Provides
     fun providesRetrofit(okHttpClient: OkHttpClient) =
+
         Retrofit.Builder().baseUrl(BASE_URL)
             .addConverterFactory(JacksonConverterFactory.create())
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(okHttpClient)
             .build()
-            .create(MovieInfoApp::class.java)
+            .create(
+                MovieApi::
+                class.java
+            )
+
 
     @Singleton
     @Provides
-    fun providesOkHttpClient() = OkHttpClient.Builder().addInterceptor(HttpLoggingInterceptor()
-            .setLevel(HttpLoggingInterceptor.Level.BODY)).build()
-
+    fun providesOkHttpClient() = OkHttpClient.Builder().addInterceptor(
+        HttpLoggingInterceptor()
+            .setLevel(HttpLoggingInterceptor.Level.BODY)
+    ).build()
 
 
 }
