@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
     <color name="colorPrimary">#FBB8AC</color>
     <color name="colorPrimaryDark">#442C2E</color>
     <color name="colorAccent">#FEDBD0</color>
+    <color name="colorError">#C5032B</color>
     <color name="toolbarIconColor">#442C2E</color>
     <color name="loginPageBackgroundColor">#E0E0E0</color>
+    <color name="design_snackbar_background_color" tools:override="true">@color/colorPrimary</color>
 
 </resources>

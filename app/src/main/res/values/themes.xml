@@ -18,7 +18,7 @@
     <style name="TextAppearance.MovieInfo.Toolbar" parent="TextAppearance.MaterialComponents.Button">
         <item name="android:textSize">16sp</item>
     </style>
-    <style name="TextAppearance.MovieInfo.Title" parent="TextAppearance.MaterialComponents.Headline4">
+    <style name="TextAppearance.MovieInfo.Title" parent="TextAppearance.MaterialComponents.Subtitle1">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>

@@ -1,6 +1,5 @@
 package com.ikran.movieinfo.network
 
-import com.ikran.movieinfo.MovieInfoApp
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
