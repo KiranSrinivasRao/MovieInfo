@@ -10,9 +10,11 @@
 
 
 ## App Detail Screen - WIP
-![App screenShot 5](Screenshots/)
+<img src="./Screenshots/Screenshot_20200817_123029.png" width="400px" height="700px"/> <img src="./Screenshots/Screenshot_20200817_123043.png" width="400px" height="700px"/>
+<img src="./Screenshots/Screenshot_20200817_123056.png" width="400px" height="700px"/> <img src="./Screenshots/movie_list_app.gif" width="400px" height="700px"/>
+
 
 
 ## Movie Info App
 
-![Movie Info App](Screenshots/movie_list_app.gif)
+![Movie Info App](Screenshots/no_movie_list.gif)
