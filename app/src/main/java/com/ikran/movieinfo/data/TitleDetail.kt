@@ -12,7 +12,7 @@ data class Rating(
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class TitleDetail(
 
-    @JsonProperty("Title") val title: String?,
+    @JsonProperty("Title") val moviename: String?,
     @JsonProperty("Year") val year: String?,
     @JsonProperty("Rated") val rated: String?,
     @JsonProperty("Released") val released: String?,

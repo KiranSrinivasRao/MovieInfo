@@ -1,3 +1,4 @@
+package com.ikran.movieinfo.utilities
 
 import android.content.Context
 import android.view.View

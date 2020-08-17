@@ -34,7 +34,7 @@
             android:gravity="bottom|start"
             android:padding="@dimen/view_top_margin"
             android:text="@{searchItem.title}"
-            android:textAppearance="@style/TextAppearance.MovieInfo.Title"
+            android:textAppearance="@style/TextAppearance.MovieInfo.MovieTitle"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

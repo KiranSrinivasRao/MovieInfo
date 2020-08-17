@@ -5,4 +5,6 @@
     <dimen name="search_bar_padding">8dp</dimen>
     <dimen name="view_top_margin">16dp</dimen>
     <dimen name="container_padding">16dp</dimen>
+    <dimen name="year_padding">8dp</dimen>
+    <dimen name="poster_detail_height">300dp</dimen>
 </resources>

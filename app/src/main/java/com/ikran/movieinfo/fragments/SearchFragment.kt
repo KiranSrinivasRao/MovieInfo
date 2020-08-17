@@ -16,10 +16,9 @@ import com.ikran.movieinfo.R
 import com.ikran.movieinfo.activities.SearchType
 import com.ikran.movieinfo.adapter.SearchListAdapter
 import com.ikran.movieinfo.data.SearchItem
+import com.ikran.movieinfo.utilities.hideKeyboard
 import com.ikran.movieinfo.viewmodel.SearchViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.scopes.FragmentScoped
-import hideKeyboard
 import kotlinx.android.synthetic.main.fragment_search.*
 
 @AndroidEntryPoint
@@ -95,17 +94,17 @@ class SearchFragment : BaseFragment() {
         }
     }
 
+    /**
+     * Search the  title
+     * Hide the keyboard after searching the title
+     */
     fun searchTitle() {
-        // Hide keyboard if it is opened
         searchView.hideKeyboard()
 
         val query = searchView.query
         val titleType =
             (searchType.adapter.getItem(searchType.selectedItemPosition) as? SearchType)?.searchText
 
-        // New Live Data created for every search query
-        // (So fresh Paged Adapter with param gets created).
-        // So removing the registered observers
         searchPagedLiveData?.removeObservers(this)
         searchPagedLiveData =
             searchViewModel.getSearchItemPagedList(query.toString(), titleType ?: "")
