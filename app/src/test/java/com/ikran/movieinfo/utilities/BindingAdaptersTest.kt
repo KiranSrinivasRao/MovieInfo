@@ -13,13 +13,12 @@ import io.mockk.mockkStatic
 import io.mockk.unmockkStatic
 import io.mockk.verify
 import org.junit.Test
-import setImageUrl
 
-class BindingAdaptersKtTest : BaseTest() {
+class BindingAdaptersTest : BaseTest() {
 
     private companion object {
         const val POSTER_URL =
-            "https://m.media-amazon.com/images/M/MV5BYmVlYTg3N2QtMWM2OS00YWQyLWI2M2MtMDc0ZjBkZjk1MTY3XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg"
+            "https://m.media-amazon.com/images/M/MV5BMTQ4MjE1NTk3NF5BMl5BanBnXkFtZTgwMTk4Mjg2NDE@._V1_SX300.jpg"
 
         const val NA = "N/A"
     }

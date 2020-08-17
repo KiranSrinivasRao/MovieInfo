@@ -16,7 +16,7 @@ import java.lang.IllegalStateException
 class DetailViewModelTest : BaseTest() {
 
     private companion object {
-        const val TITLE = "Hulk"
+        const val TITLE = "Star"
     }
 
     @MockK
